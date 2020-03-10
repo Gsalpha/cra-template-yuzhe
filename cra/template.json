@@ -20,8 +20,10 @@
         "babel-plugin-import": "^1.13.0",
         "customize-cra": "^0.9.1",
         "history": "^4.10.1",
+        "husky": "^4.2.3",
         "less": "^3.11.1",
         "less-loader": "^5.0.0",
+        "lint-staged": "^10.0.8",
         "node-sass": "^4.13.1",
         "nprogress": "^0.2.0",
         "prettier": "^1.19.1",
@@ -38,5 +40,16 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test"
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
     }
 }
