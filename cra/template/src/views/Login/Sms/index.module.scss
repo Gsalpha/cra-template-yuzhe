@@ -1,0 +1,10 @@
+.btn {
+    font-size: 15px;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .btn {
+        font-size: 13px;
+    }
+}

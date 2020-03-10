@@ -1,0 +1,23 @@
+{
+    "name": "cra-template-yuzhe",
+    "version": "1.1.1",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template",
+        "typescript",
+        "antd",
+        "redux",
+        "react-router-dom"
+    ],
+    "description": "SPA template for CRA",
+    "main": "template.json",
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.10"
+    },
+    "files": [
+        "template",
+        "template.json"
+    ]
+}

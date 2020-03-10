@@ -1,0 +1,48 @@
+.root {
+    margin: 0 auto;
+    padding-top: 66px;
+    width: 444px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f50057;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+.field {
+    width: 100%;
+}
+
+.signIn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.33;
+    }
+}
+
+.submit {
+    width: 100%;
+}
+
+.context {
+    min-height: 100vh;
+    background: url('./bg.svg') center no-repeat;
+}
+
+@media (max-width: 750px) {
+    .root {
+        width: 400px;
+    }
+}
